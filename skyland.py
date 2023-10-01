@@ -1,8 +1,3 @@
-# cse30
-# pa5
-# skyland.py - a one-level platform video game
-# author: Raghav Singh
-# date: June 8, 2023
 from tkinter import *
 import tkinter.font as font
 from random import random, randint # optional
