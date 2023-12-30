@@ -77,6 +77,3 @@ This project is open-source under the [MIT License](https://opensource.org/licen
 - **Email**: [raghavsingh@example.com](mailto:raghav.world1212@gmail.com)
 - **GitHub**: [github.com/RaghavSingh](https://github.com/RaghavSingh)
 
----
-
-We encourage you to explore this repository to improve your Python skills. Enjoy using the calculator!
