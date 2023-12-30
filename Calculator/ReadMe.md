@@ -74,6 +74,6 @@ This project is open-source under the [MIT License](https://opensource.org/licen
 
 ## Contact
 - **Author**: Raghav Singh
-- **Email**: [raghavsingh@example.com](mailto:raghav.world1212@gmail.com)
+- **Email**: [raghav.world1212@gmail.com](mailto:raghav.world1212@gmail.com)
 - **GitHub**: [github.com/RaghavSingh](https://github.com/RaghavSingh)
 
