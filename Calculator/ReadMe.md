@@ -1,46 +1,80 @@
-# Calculator 
+Certainly! Let's compile a detailed explanation of the repository's contents in a structured and ordered manner. 
+
+---
+
+# README for Calculator Project by Raghav Singh
 
 ## Introduction
-This GitHub repository contains the source code for a sophisticated calculator application developed by Raghav Singh. The calculator handles basic arithmetic operations and is implemented in Python. It features a command-line interface as well as a graphical user interface (GUI) using Tkinter.
+This GitHub repository, developed by Raghav Singh, contains the source code for an advanced calculator application. It's capable of performing basic arithmetic operations and is implemented in Python. Notably, it offers both a command-line interface and a graphical user interface (GUI) using Tkinter.
 
 ## Repository Structure
-The repository includes the following key components:
-- `calculator.py`: Core logic for parsing and evaluating mathematical expressions.
-- `stack.py`: Implementation of a Stack class, utilized in `calculator.py` for expression evaluation.
-- `tree.py`: Implementation of binary and expression trees for handling arithmetic operations.
-- `calculatorGUI.py`: GUI for the calculator, built using the Tkinter library.
+The repository comprises several key components:
+- `calculator.py`: This is the heart of the application, responsible for parsing and evaluating mathematical expressions.
+- `stack.py`: Implements the Stack class, essential for expression evaluation in `calculator.py`.
+- `tree.py`: Contains implementations of binary and expression trees, crucial for arithmetic operations.
+- `calculatorGUI.py`: Provides a GUI, crafted using the Tkinter library, enhancing user interaction.
 
-## Features
-- **Arithmetic Operations:** Handles basic operations like addition, subtraction, multiplication, division, and exponentiation.
-- **Expression Handling:** Can evaluate expressions with proper order of operations.
-- **Graphical User Interface:** A user-friendly GUI for easier interaction.
+## Detailed Explanation of Each Component
 
-## Usage
-1. **Command-Line Calculator:**
-   - Run `calculator.py` and input arithmetic expressions when prompted.
-   - To exit, enter 'quit' or 'q'.
+### calculator.py
+**Purpose**: Core logic for interpreting and computing arithmetic expressions.
+1. **Imports**:
+   - `stack`: For the Stack class, facilitating data storage and retrieval.
+   - `tree`: For the ExpTree class, instrumental in building expression trees from arithmetic expressions.
+2. **Key Functions**:
+   - `infix_to_postfix(infix)`: Transforms an infix expression (normal arithmetic format) to postfix (Reverse Polish Notation) using two stacks for operators and output.
+   - `calculate(infix)`: Converts infix to postfix, constructs an expression tree, and evaluates this tree.
 
-2. **Graphical Calculator:**
-   - Run `calculatorGUI.py` to open the GUI.
-   - Input expressions using the graphical buttons and view results on the screen.
+### stack.py
+**Purpose**: Defines a Stack class used in `calculator.py`.
+1. **Class Stack**:
+   - Implements fundamental stack operations like `push`, `pop`, `peek`, `isEmpty`, and `size`.
+   - Essential for managing data in a LIFO method, crucial for both the infix-to-postfix conversion and the construction of expression trees.
+
+### tree.py
+**Purpose**: Establishes a binary tree structure and extends it to an expression tree.
+1. **Class BinaryTree**:
+   - Basic operations like `insertLeft`, `insertRight`, and getters and setters for child nodes and root value.
+2. **Class ExpTree (extends BinaryTree)**:
+   - `make_tree(postfix)`: Converts postfix expressions to expression trees.
+   - Tree traversal methods: `preorder`, `inorder`, `postorder`.
+   - `evaluate(tree)`: Computes the result of the expression tree.
+
+### calculatorGUI.py
+**Purpose**: Delivers a Graphical User Interface using Tkinter.
+1. **Main Functions**:
+   - `calculator(gui)`: Establishes the calculator layout and buttons.
+   - `addButton(gui, entrybox, value)`: Assists in creating calculator buttons.
+   - `clickButton(entrybox, value)`: Defines button click actions, including calculations and UI updates.
+
+### Features
+- **Arithmetic Operations**: Manages basic arithmetic like addition, subtraction, multiplication, division, and exponentiation.
+- **Expression Handling**: Evaluates expressions, respecting the correct order of operations.
+- **Graphical User Interface**: An intuitive GUI for easier operation.
+
+## Usage Instructions
+1. **Command-Line Calculator**:
+   - Execute `calculator.py`, input expressions when prompted. Use 'quit' or 'q' to exit.
+2. **Graphical Calculator**:
+   - Run `calculatorGUI.py` to launch the GUI. Input expressions using buttons and view results on the display.
 
 ## Installation
-1. Clone the repository to your local machine.
-2. Ensure Python is installed on your system.
-3. No external libraries are required for `calculator.py`. For the GUI (`calculatorGUI.py`), Tkinter needs to be installed, which is typically included in standard Python distributions.
+1. Clone the repository.
+2. Ensure Python is installed.
+3. `calculator.py` requires no external libraries. For `calculatorGUI.py`, Tkinter is necessary (usually included in Python distributions).
 
 ## Running the Tests
-- The `calculator.py`, `stack.py`, and `tree.py` files include test cases at the bottom. Run these files individually to execute the tests.
+- Test cases are included in `calculator.py`, `stack.py`, and `tree.py`. Execute these files to run the tests.
 
 ## Dependencies
 - Python 3.x
-- Tkinter for the GUI (usually comes with Python)
+- Tkinter for GUI (typically included in Python)
 
 ## Contributing
-Contributions, bug reports, and feature requests are welcome. Please refer to the contribution guidelines for more information.
+We welcome contributions, bug reports, and feature requests. Please see the contribution guidelines for more details.
 
 ## License
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
+This project is open-source under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contact
 - **Author**: Raghav Singh
@@ -49,4 +83,4 @@ This project is open-source and available under the [MIT License](https://openso
 
 ---
 
-Feel free to explore the repository and enhance your Python programming skills. Enjoy calculating!
+We encourage you to explore this repository to improve your Python skills. Enjoy using the calculator!
