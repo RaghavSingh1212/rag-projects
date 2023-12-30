@@ -1,4 +1,4 @@
-# README for Calculator Project by Raghav Singh
+# Calculator 
 
 ## Introduction
 This GitHub repository contains the source code for a sophisticated calculator application developed by Raghav Singh. The calculator handles basic arithmetic operations and is implemented in Python. It features a command-line interface as well as a graphical user interface (GUI) using Tkinter.
