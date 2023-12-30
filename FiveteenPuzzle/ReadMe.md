@@ -1,8 +1,4 @@
-Sure, here's a combined README for your GitHub repository that includes both an overview of your "Fifteen" game project and a detailed description of the game mechanics. This README is tailored for your project as developed by you, Raghav Singh.
-
----
-
-# Fifteen Game by Raghav Singh
+# FifteenPuzzle Game
 
 Welcome to the "Fifteen" puzzle game repository. This classic sliding puzzle game involves a 4x4 grid with numbered tiles and one empty space. The project comprises two main components: `fifteen.py`, which contains the core game logic, and `game.py`, a graphical user interface (GUI) for interactive gameplay.
 
