@@ -54,4 +54,7 @@ Contributions are welcome! Fork the repository and submit pull requests, or open
 
 This project is licensed under the [MIT License](LICENSE.md).
 
-## About the Author
+## Contact
+- **Author**: Raghav Singh
+- **Email**: [raghav.world1212@gmail.com](mailto:raghav.world1212@gmail.com)
+- **GitHub**: [github.com/RaghavSingh](https://github.com/RaghavSingh)
